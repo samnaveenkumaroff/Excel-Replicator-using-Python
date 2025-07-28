@@ -14,7 +14,7 @@ class ExcelReplicatorApp:
         self.root.title("Excel Replicator")
         self.root.state('zoomed')  # Start maximized
 
-        # Heading Label
+        # Head Label
         heading_label = ttk.Label(root, text="Excel Replicator", font=('Arial', 24, 'bold'))
         heading_label.place(relx=0.5, rely=0.05, anchor=tk.CENTER)
 
